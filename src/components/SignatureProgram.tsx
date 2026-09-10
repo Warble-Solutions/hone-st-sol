@@ -5,7 +5,8 @@ import { ScrollText, Sparkles, CheckCircle2, ArrowRight, ArrowUpRight, BookOpen,
 
 export default function SignatureProgram() {
   return (
-    <section id="arjuna-program" className="py-24 bg-white relative overflow-hidden border-t border-slate-200/80">
+    <section id="bhagavad-gita" className="py-24 bg-white relative overflow-hidden border-t border-slate-200/80 scroll-mt-20">
+      <div id="arjuna-program" className="scroll-mt-24" />
       
       {/* Subtle Background Glows (Light Theme) */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-[#e16922]/10 rounded-full blur-[100px] pointer-events-none" />

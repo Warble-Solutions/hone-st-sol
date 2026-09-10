@@ -7,14 +7,16 @@ import { usePathname } from 'next/navigation';
 import { Menu, X, ArrowRight } from 'lucide-react';
 
 const navLinks = [
-  { label: 'Home', href: '/' },
+  { label: 'Bhagavad Gita', href: '/#bhagavad-gita' },
   { label: 'Digital Solutions', href: '/digital' },
+  { label: 'Business Solutions', href: '/#business-solutions' },
   { label: 'About Us', href: '/about' },
 ];
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [hash, setHash] = useState('');
   const pathname = usePathname();
 
   useEffect(() => {
@@ -22,6 +24,13 @@ export default function Navbar() {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  useEffect(() => {
+    setHash(window.location.hash);
+    const onHashChange = () => setHash(window.location.hash);
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, [pathname]);
 
   useEffect(() => {
     setIsOpen(false);
@@ -53,11 +62,17 @@ export default function Navbar() {
           {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-1">
             {navLinks.map((link) => {
-              const isActive = pathname === link.href;
+              const isActive = link.href.includes('#')
+                ? pathname === '/' && hash === link.href.slice(1)
+                : pathname === link.href;
+
               return (
                 <Link
                   key={link.href}
                   href={link.href}
+                  onClick={() => {
+                    if (link.href.includes('#')) setHash(link.href.slice(1));
+                  }}
                   className={`relative px-4 py-2 text-[15px] font-semibold rounded-lg transition-colors ${
                     isActive
                       ? 'text-[#e16922]'
@@ -98,19 +113,29 @@ export default function Navbar() {
       {/* Mobile Drawer */}
       {isOpen && (
         <div className="md:hidden border-t border-slate-100 bg-white px-5 pb-6 pt-4 space-y-1">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`block px-4 py-3 rounded-xl text-base font-semibold transition-colors ${
-                pathname === link.href
-                  ? 'text-[#e16922] bg-orange-50'
-                  : 'text-slate-700 hover:bg-slate-50'
-              }`}
-            >
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = link.href.includes('#')
+              ? pathname === '/' && hash === link.href.slice(1)
+              : pathname === link.href;
+
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => {
+                  if (link.href.includes('#')) setHash(link.href.slice(1));
+                  setIsOpen(false);
+                }}
+                className={`block px-4 py-3 rounded-xl text-base font-semibold transition-colors ${
+                  isActive
+                    ? 'text-[#e16922] bg-orange-50'
+                    : 'text-slate-700 hover:bg-slate-50'
+                }`}
+              >
+                {link.label}
+              </Link>
+            );
+          })}
           <div className="pt-3">
             <Link
               href="/#contact-cta"

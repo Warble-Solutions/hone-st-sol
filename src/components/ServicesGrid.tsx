@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, Bot, Globe, Search, Share2, Smartphone, GraduationCap } from 'lucide-react';
@@ -18,7 +18,7 @@ const verticals = [
   },
   {
     id: 'consulting',
-    label: 'Business Consulting',
+    label: 'Business Solutions',
     headline: 'From Start-Up to Scale-Up',
     description: 'Boardroom-level strategy, organizational restructuring, and systems standardization. We work side-by-side with leadership to implement operational clarity and unlock sustainable growth.',
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop',
@@ -67,10 +67,26 @@ const verticals = [
 
 export default function ServicesGrid() {
   const [active, setActive] = useState('gita');
+
+  useEffect(() => {
+    const handleHash = () => {
+      const hash = window.location.hash.toLowerCase();
+      if (hash === '#business-solutions' || hash === '#consulting') {
+        setActive('consulting');
+      } else if (hash === '#bhagavad-gita' || hash === '#gita') {
+        setActive('gita');
+      }
+    };
+    handleHash();
+    window.addEventListener('hashchange', handleHash);
+    return () => window.removeEventListener('hashchange', handleHash);
+  }, []);
+
   const current = verticals.find((v) => v.id === active)!;
 
   return (
-    <section id="services" className="py-20 sm:py-28 bg-white">
+    <section id="services" className="py-20 sm:py-28 bg-white relative scroll-mt-20">
+      <div id="business-solutions" className="absolute -top-20" />
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
 
         {/* Header */}
