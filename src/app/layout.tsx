@@ -1,22 +1,7 @@
 import type { Metadata } from 'next';
-import { Outfit, Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-
-const outfit = Outfit({
-  subsets: ['latin'],
-  variable: '--font-display',
-  weight: ['400', '500', '600', '700', '800', '900'],
-  display: 'swap',
-});
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-sans',
-  weight: ['300', '400', '500', '600', '700'],
-  display: 'swap',
-});
+import FooterV2 from '@/components/FooterV2';
 
 export const metadata: Metadata = {
   title: 'HoneST Solutions | Digital Transformation, Business Consulting & Executive Programs',
@@ -75,7 +60,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en" className={`${outfit.variable} ${inter.variable} scroll-smooth`}>
+    <html lang="en" className="scroll-smooth">
       <head>
         <script
           type="application/ld+json"
@@ -85,7 +70,7 @@ export default function RootLayout({
       <body className="min-h-screen flex flex-col bg-slate-50 text-slate-900 font-sans antialiased selection:bg-blue-600 selection:text-white">
         <Navbar />
         <main className="flex-grow">{children}</main>
-        <Footer />
+        <FooterV2 />
       </body>
     </html>
   );
