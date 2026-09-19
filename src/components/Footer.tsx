@@ -17,7 +17,7 @@ import { LinkedInIcon, FacebookIcon, InstagramIcon, YouTubeIcon } from './Social
 
 export default function Footer() {
   return (
-    <footer className="bg-white text-slate-700 pt-20 pb-12 border-t border-slate-200">
+    <footer className="relative z-10 bg-white text-slate-700 pt-20 pb-12 border-t border-slate-200/80 shadow-[0_-15px_30px_-5px_rgba(15,23,42,0.07),0_-6px_12px_-4px_rgba(15,23,42,0.04)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Dual-Path Conversion Section (Light Theme with #e16922 & #28c2ff) */}
