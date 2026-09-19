@@ -47,22 +47,22 @@ export default function Navbar() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-5 sm:px-8">
-        <div className="flex items-center justify-between h-[72px]">
+        <div className="flex items-center justify-between h-20 sm:h-[84px]">
 
           {/* Logo */}
-          <Link href="/" className="relative h-10 w-40 shrink-0">
+          <Link href="/" className="relative h-14 sm:h-16 md:h-[70px] w-48 sm:w-60 md:w-72 shrink-0 transition-transform duration-200 hover:scale-[1.02]">
             <Image
               src="/logo/hone-ST-logo.webp"
               alt="HoneST Solutions"
               fill
-              sizes="160px"
+              sizes="(max-width: 768px) 240px, 320px"
               priority
               className="object-contain object-left"
             />
           </Link>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-1">
+          <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1">
             {navLinks.map((link) => {
               const isActive = link.href.includes('#')
                 ? pathname === '/' && hash === link.href.slice(1)
@@ -75,7 +75,7 @@ export default function Navbar() {
                   onClick={() => {
                     if (link.href.includes('#')) setHash(link.href.slice(1));
                   }}
-                  className={`relative px-4 py-2 text-[15px] font-semibold rounded-lg transition-colors ${
+                  className={`relative px-3 xl:px-4 py-2 text-sm xl:text-[15px] font-semibold rounded-lg transition-colors whitespace-nowrap ${
                     isActive
                       ? 'text-[#e16922]'
                       : 'text-slate-600 hover:text-slate-900'
@@ -83,7 +83,7 @@ export default function Navbar() {
                 >
                   {link.label}
                   {isActive && (
-                    <span className="absolute bottom-0 left-4 right-4 h-0.5 bg-[#e16922] rounded-full" />
+                    <span className="absolute bottom-0 left-3 right-3 xl:left-4 xl:right-4 h-0.5 bg-[#e16922] rounded-full" />
                   )}
                 </Link>
               );
@@ -94,7 +94,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3">
             <Link
               href="/#contact-cta"
-              className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-[#e16922] hover:bg-[#d05a18] rounded-full transition-colors shadow-sm"
+              className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold text-white bg-[#e16922] hover:bg-[#d05a18] rounded-full transition-colors shadow-sm whitespace-nowrap"
             >
               Get in Touch
               <ArrowRight className="w-4 h-4" />
@@ -102,7 +102,7 @@ export default function Navbar() {
 
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="md:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 transition-colors"
+              className="lg:hidden p-2 rounded-lg text-slate-600 hover:bg-slate-100 transition-colors"
               aria-label="Toggle menu"
             >
               {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -114,7 +114,7 @@ export default function Navbar() {
 
       {/* Mobile Drawer */}
       {isOpen && (
-        <div className="md:hidden border-t border-slate-100 bg-white px-5 pb-6 pt-4 space-y-1">
+        <div className="lg:hidden border-t border-slate-100 bg-white px-5 pb-6 pt-4 space-y-1">
           {navLinks.map((link) => {
             const isActive = link.href.includes('#')
               ? pathname === '/' && hash === link.href.slice(1)

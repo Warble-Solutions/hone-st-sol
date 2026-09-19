@@ -96,13 +96,13 @@ export default function Footer() {
           
           {/* HoneST Mission & Logo */}
           <div className="lg:col-span-4 space-y-4">
-            <Link href="/" className="flex items-center gap-3">
-              <div className="relative h-11 w-44">
+            <Link href="/" className="inline-block transition-transform duration-200 hover:scale-[1.02]">
+              <div className="relative h-16 sm:h-20 w-60 sm:w-80">
                 <Image
                   src="/logo/hone-ST-logo.webp"
                   alt="HoneST Solutions Logo"
                   fill
-                  sizes="176px"
+                  sizes="(max-width: 768px) 240px, 320px"
                   className="object-contain object-left"
                 />
               </div>
