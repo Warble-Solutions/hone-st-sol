@@ -12,19 +12,19 @@ export default function TrustBar() {
       pillBg: "bg-[#fef4ee] text-[#e16922] border-[#e16922]/30"
     },
     {
-      value: "25,000+",
-      label: "Individuals Empowered",
-      detail: "Executive workshops, masterclasses & chanting",
+      value: "50+ Yrs",
+      label: "Collective Experience",
+      detail: "Hands-on boardroom and operational pedigree",
       color: "text-[#0284c7]",
-      pill: "Leadership Reach",
+      pill: "Faculty Authority",
       pillBg: "bg-[#eefaff] text-[#0284c7] border-[#28c2ff]/30"
     },
     {
-      value: "100+ Yrs",
-      label: "Collective Experience",
-      detail: "Hands-on boardroom and operational pedigree",
+      value: "2018",
+      label: "Founded in Ahmedabad",
+      detail: "Catalyst for organizations & individuals",
       color: "text-slate-900",
-      pill: "Faculty Authority",
+      pill: "Est. 2018",
       pillBg: "bg-slate-100 text-slate-700 border-slate-200"
     },
     {

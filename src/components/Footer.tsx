@@ -64,7 +64,7 @@ export default function Footer() {
                   <ScrollText className="w-3.5 h-3.5" /> For Individuals & Seekers
                 </div>
                 <h3 className="text-2xl sm:text-3xl font-display font-extrabold text-slate-950 tracking-tight leading-snug">
-                  "Discover the Arjuna in You" — Ancient Wisdom for Modern Clarity
+                  "Discover the Arjuna in You", Ancient Wisdom for Modern Clarity
                 </h3>
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed font-normal">
                   Experience the life-altering power of Bhagavad Gita chanting and executive leadership shlokas taught directly at our state-of-the-art Ahmedabad training centre.
@@ -109,13 +109,13 @@ export default function Footer() {
             </Link>
             
             <p className="text-sm text-slate-600 leading-relaxed">
-              &ldquo;What mind can conceive man can achieve&rdquo; &mdash; Since 2018, providing a comprehensive catalyst for organizations and individuals.
+              &ldquo;What mind can conceive man can achieve&rdquo;, since 2018, providing a comprehensive catalyst for organisations and individuals
             </p>
 
             <div className="p-4 rounded-2xl bg-[#fef4ee]/60 border border-[#e16922]/20 text-xs space-y-1.5">
               <p className="font-display font-black text-[#e16922] uppercase tracking-wide">The HoneST Blueprint</p>
               <p className="text-slate-700 leading-relaxed">
-                <strong className="text-slate-950">H</strong>armonizing <strong className="text-slate-950">O</strong>pportunities &bull; <strong className="text-slate-950">E</strong>nhancing productivity &bull; <strong className="text-slate-950">N</strong>urturing <strong className="text-slate-950">S</strong>ynergies &bull; <strong className="text-slate-950">T</strong>ransforming lives.
+                <strong className="text-slate-950">H</strong>armonizing <strong className="text-slate-950">O</strong>pportunities &bull; <strong className="text-slate-950">E</strong>nhancing productivity &bull; <strong className="text-slate-950">N</strong>urturing <strong className="text-slate-950">S</strong>ynergies &bull; <strong className="text-slate-950">T</strong>ransforming lives
               </p>
             </div>
 
@@ -182,27 +182,27 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-sm text-slate-600">
               <li>
-                <Link href="/#arjuna-program" className="hover:text-[#e16922] transition-colors">
+                <Link href="/bhagavad-gita" className="hover:text-[#e16922] transition-colors">
                   Discover the Arjuna in You
                 </Link>
               </li>
               <li>
-                <Link href="/#services" className="hover:text-[#e16922] transition-colors">
+                <Link href="/business-consulting" className="hover:text-[#e16922] transition-colors">
                   Business Consulting (Ahmedabad)
                 </Link>
               </li>
               <li>
-                <Link href="/#services" className="hover:text-[#e16922] transition-colors">
-                  Corporate Training & TNI
+                <Link href="/corporate-training" className="hover:text-[#e16922] transition-colors">
+                  Corporate Training &amp; TNI
                 </Link>
               </li>
               <li>
-                <Link href="/#services" className="hover:text-[#e16922] transition-colors">
-                  Gita Chanting for Children
+                <Link href="/programs" className="hover:text-[#e16922] transition-colors">
+                  Gita Chanting Programs
                 </Link>
               </li>
               <li>
-                <Link href="/#services" className="hover:text-[#e16922] transition-colors">
+                <Link href="/bhagavad-gita" className="hover:text-[#e16922] transition-colors">
                   The Corporate Bhagavad Gita
                 </Link>
               </li>
@@ -223,7 +223,7 @@ export default function Footer() {
               <p className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#e16922] shrink-0 mt-0.5" />
                 <span>
-                  State-of-the-Art Training Centre & Executive Suites, Ahmedabad, Gujarat, India.
+                  State-of-the-Art Training Centre & Executive Suites, Ahmedabad, Gujarat, India
                 </span>
               </p>
               <p className="flex items-center gap-2.5">
@@ -239,7 +239,7 @@ export default function Footer() {
             <div className="mt-4 p-3.5 rounded-2xl bg-emerald-50/80 border border-emerald-200/80 flex items-center gap-2.5">
               <ShieldCheck className="w-5 h-5 text-emerald-600 shrink-0" />
               <p className="text-[11px] text-emerald-900 font-medium">
-                Verified Ahmedabad Management Partner & Corporate Facilitator.
+                Verified Ahmedabad Management Partner & Corporate Facilitator
               </p>
             </div>
           </div>

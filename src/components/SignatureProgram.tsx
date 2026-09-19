@@ -31,7 +31,7 @@ export default function SignatureProgram() {
               </h2>
 
               <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-normal">
-                In moments of immense corporate stakes and personal uncertainty, hesitation costs everything. Grounded in Chapter 18 of the Shrimad Bhagavad Gita, this landmark signature program by <strong>Mr. Prasun Kundu</strong> has transformed corporate boardrooms, entrepreneurs, and students across India.
+                In moments of immense corporate stakes and personal uncertainty, hesitation costs everything. Grounded in Chapter 18 of the Shrimad Bhagavad Gita, this landmark signature program by <strong>Mr Prasun Kundu</strong> has transformed corporate boardrooms, entrepreneurs and students across India
               </p>
 
               <blockquote className="border-l-4 border-[#e16922] pl-5 py-2 italic text-slate-800 text-base font-medium bg-[#fef4ee]/70 rounded-r-2xl">
@@ -45,7 +45,7 @@ export default function SignatureProgram() {
                   </div>
                   <div>
                     <strong className="text-slate-900 text-sm block">Conquer Executive Delusion & Decision Hesitation</strong>
-                    <span className="text-xs text-slate-600">Break through executive inertia using the 700-shloka scientific framework.</span>
+                    <span className="text-xs text-slate-600">Break through executive inertia using the 700-shloka scientific framework</span>
                   </div>
                 </div>
 
@@ -55,7 +55,7 @@ export default function SignatureProgram() {
                   </div>
                   <div>
                     <strong className="text-slate-900 text-sm block">Authentic Sanskrit Sound Vibration & Chanting Energy</strong>
-                    <span className="text-xs text-slate-600">Learn accurate pronunciation and rhythm directly from Prasun Kundu.</span>
+                    <span className="text-xs text-slate-600">Learn accurate pronunciation and rhythm directly from Prasun Kundu</span>
                   </div>
                 </div>
 
@@ -65,7 +65,7 @@ export default function SignatureProgram() {
                   </div>
                   <div>
                     <strong className="text-slate-900 text-sm block">100% FREE In-Person Chanting at Ahmedabad Hub</strong>
-                    <span className="text-xs text-slate-600">Weekly community sessions for children, youth, and corporate executives.</span>
+                    <span className="text-xs text-slate-600">Weekly community sessions for children, youth and corporate executives</span>
                   </div>
                 </div>
               </div>
@@ -118,7 +118,7 @@ export default function SignatureProgram() {
                 <div className="p-6 pt-0 space-y-4 text-xs text-slate-600 leading-relaxed">
                   <h3 className="text-xl font-display font-black text-slate-900">The Corporate Bhagavad Gita</h3>
                   <p>
-                    A deeply researched corporate manual applying timeless principles of Nishkama Karma to modern management, team synchronization, and personal equanimity.
+                    A deeply researched corporate manual applying timeless principles of Nishkama Karma to modern management, team synchronization and personal equanimity
                   </p>
                   
                   <div className="p-4 rounded-2xl bg-[#fef4ee] border border-[#e16922]/20 flex items-center justify-between">
@@ -134,7 +134,7 @@ export default function SignatureProgram() {
                   <div className="p-4 rounded-2xl bg-[#eefaff] border border-[#28c2ff]/30 flex items-center gap-3">
                     <Heart className="w-5 h-5 text-[#e16922] shrink-0" />
                     <p className="text-[11px] text-slate-800 font-medium">
-                      <strong className="text-[#e16922]">50% of all proceeds</strong> directly support education and welfare of girls and underprivileged children.
+                      <strong className="text-[#e16922]">50% of all proceeds</strong> directly support education and welfare of girls and underprivileged children
                     </p>
                   </div>
 

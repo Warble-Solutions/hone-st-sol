@@ -17,7 +17,7 @@ interface Props {
 export default function FAQAccordion({ 
   faqs, 
   title = "Frequently Asked Questions", 
-  subtitle = "Everything you need to know about our engagement models, timelines, and deliverables." 
+  subtitle = "Everything you need to know about our engagement models, timelines and deliverables" 
 }: Props) {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 

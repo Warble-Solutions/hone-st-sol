@@ -1,14 +1,9 @@
 @import "tailwindcss";
 
-@theme {
-  --font-sans: 'Calibri', 'Carlito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  --font-display: 'Calibri', 'Carlito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-}
-
 @layer base {
   :root {
-    --font-display: 'Calibri', 'Carlito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    --font-sans: 'Calibri', 'Carlito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    --font-display: Calibri, Carlito, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-sans: Calibri, Carlito, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
     /* User Requested Brand Palette */
     --brand-orange: #e16922;
@@ -18,12 +13,6 @@
     --brand-cyan: #28c2ff;
     --brand-cyan-hover: #0fb2f2;
     --brand-cyan-light: #eefaff;
-
-    /* User Requested V2 Primary Blue */
-    --brand-blue: #1e92bf;
-    --brand-blue-hover: #177ba3;
-    --brand-blue-light: #edf7fb;
-    --brand-blue-muted: #e2f2f8;
 
     /* Light Theme Foundations */
     --bg-page: #f8fafc;

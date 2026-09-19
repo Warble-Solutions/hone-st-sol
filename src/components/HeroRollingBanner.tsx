@@ -8,11 +8,7 @@ import {
   ArrowUpRight, 
   ChevronLeft, 
   ChevronRight, 
-  Sparkles, 
-  CheckCircle2, 
-  ShieldCheck,
-  Zap,
-  Play
+  CheckCircle2
 } from 'lucide-react';
 
 interface Slide {
@@ -27,66 +23,61 @@ interface Slide {
   ctaSecondaryText: string;
   ctaSecondaryLink: string;
   features: string[];
-  statsBadge: { value: string; label: string };
 }
 
 const slides: Slide[] = [
   {
     id: 1,
-    tagline: "Next-Gen Digital Transformation",
-    title: "Innovative Digital Solutions for a",
-    highlightText: "Connected World.",
-    subtext: "Unifying autonomous AI agent workflows, sub-second Next.js web architectures, and generative search dominance (GEO/AEO) to engineer exponential enterprise growth.",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop",
-    ctaText: "Explore Digital Suite",
-    ctaLink: "/digital",
-    ctaSecondaryText: "Get Free Digital Audit",
-    ctaSecondaryLink: "/digital#audit",
-    features: ["Autonomous AI Agents", "Sub-0.8s Page Speed", "Generative Engine Search (GEO)"],
-    statsBadge: { value: "10x", label: "Automation Velocity" }
-  },
-  {
-    id: 2,
-    tagline: "Best Business Consultant in Ahmedabad",
-    title: "Strategic Boardroom Advisory:",
-    highlightText: "From Startup to Scale-Up.",
-    subtext: "Mentoring enterprises with battle-tested systems, process re-engineering, and unit-economic clarity. Turn operational hesitation into predictable multi-million-dollar revenue.",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop",
-    ctaText: "Consulting Framework",
-    ctaLink: "/#services",
-    ctaSecondaryText: "Book Free Diagnostic",
-    ctaSecondaryLink: "/#contact-cta",
-    features: ["Process & SOP Standardization", "Executive Decision Systems", "Capital Readiness"],
-    statsBadge: { value: "75+", label: "Enterprises Scaled" }
-  },
-  {
-    id: 3,
-    tagline: "Ancient Wisdom for Modern Corporate Excellence",
-    title: "Timeless Leadership Masterclass:",
-    highlightText: "Discover Arjuna in You.",
-    subtext: "Decoded from Chapter 18 of the Shrimad Bhagavad Gita by Mr. Prasun Kundu. Conquering decision fatigue, hesitation, and anxiety to lead life by DESIGN, not DEFAULT.",
-    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop",
-    ctaText: "Discover Arjuna Program",
+    tagline: "Signature Bhagavad Gita Program",
+    title: "Discover the Arjuna",
+    highlightText: "in You",
+    subtext: "A landmark program decoded from Chapter 18 of the Shrimad Bhagavad Gita by Mr Prasun Kundu. Conquering decision fatigue, hesitation and anxiety to lead life by DESIGN, not DEFAULT",
+    image: "/images/slider/bhagavad-gita.png",
+    ctaText: "Explore the Program",
     ctaLink: "/#arjuna-program",
     ctaSecondaryText: "Free Chanting Sessions",
     ctaSecondaryLink: "/about#centre",
-    features: ["Chapter 18 Executive Synthesis", "Free Chanting at Ahmedabad Hub", "Diction & Sound Mastery"],
-    statsBadge: { value: "25k+", label: "Seekers & Leaders" }
+    features: ["Chapter 18 Leadership Framework", "Free Weekly Chanting for All Ages", "Celebrated at AMA Ahmedabad"],
+  },
+  {
+    id: 2,
+    tagline: "Business Consulting",
+    title: "Strategic Advisory:",
+    highlightText: "From Start-Up to Scale-Up",
+    subtext: "Mentoring enterprises with battle-tested systems, process re-engineering and operational clarity. Turning hesitation into predictable, sustainable growth",
+    image: "/images/slider/consulting.png",
+    ctaText: "Our Consulting Framework",
+    ctaLink: "/#verticals",
+    ctaSecondaryText: "Book Free Diagnostic",
+    ctaSecondaryLink: "/#contact-help",
+    features: ["Process & SOP Standardization", "Executive Decision Systems", "Financial Modelling & Profit Levers"],
+  },
+  {
+    id: 3,
+    tagline: "Corporate Training",
+    title: "Experiential Workshops:",
+    highlightText: "Training Need Identification",
+    subtext: "Tailored boardroom workshops that connect theoretical management with experiential on-the-ground performance. Transforming sales, negotiations and workplace culture",
+    image: "/images/slider/training.png",
+    ctaText: "Explore Training Modules",
+    ctaLink: "/#verticals",
+    ctaSecondaryText: "Request TNI Proposal",
+    ctaSecondaryLink: "/#contact-help",
+    features: ["TNI-Based Custom Curriculums", "Boardroom Roleplay Labs", "State-of-the-Art Training Centre"],
   },
   {
     id: 4,
-    tagline: "100+ Years Faculty Pedigree",
-    title: "Experiential Corporate Training:",
-    highlightText: "Training Need Identification.",
-    subtext: "Tailored boardroom workshops that connect theoretical management with experiential on-the-ground performance. Transforming sales, negotiations, and workplace culture.",
-    image: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
-    ctaText: "Explore Training Modules",
-    ctaLink: "/#services",
-    ctaSecondaryText: "Request TNI Proposal",
-    ctaSecondaryLink: "/#contact-cta",
-    features: ["TNI-Based Curriculums", "Boardroom Roleplay Labs", "State-of-the-Art Training Centre"],
-    statsBadge: { value: "100+", label: "Faculty Yrs Pedigree" }
-  }
+    tagline: "Digital Solutions",
+    title: "Innovative Solutions for a",
+    highlightText: "Connected World",
+    subtext: "Digital solutions are the components of marketing that utilise internet and online-based digital technologies to promote products and services",
+    image: "/images/slider/digital.png",
+    ctaText: "Explore Digital Suite",
+    ctaLink: "/digital",
+    ctaSecondaryText: "Get in Touch",
+    ctaSecondaryLink: "/#contact-help",
+    features: ["AI Agents & Automation", "Modern Websites & Apps", "SEO / GEO / AEO"],
+  },
 ];
 
 export default function HeroRollingBanner() {
@@ -134,10 +125,9 @@ export default function HeroRollingBanner() {
             sizes="100vw"
           />
 
-          {/* Light Theme High-Legibility Gradient Overlays */}
-          <div className="absolute inset-0 bg-white/75 sm:bg-white/60 backdrop-blur-[2px]" />
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 sm:via-white/75 to-transparent w-full lg:w-3/4" />
-          <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-white/40" />
+          {/* Clean gradient overlay: strong white on left for text legibility, transparent on right to show graphic */}
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 sm:via-white/75 to-transparent w-full lg:w-3/5" />
+          <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-white to-transparent" />
         </div>
       ))}
 
@@ -152,7 +142,7 @@ export default function HeroRollingBanner() {
           {/* Left Text Block */}
           <div className="lg:col-span-8 space-y-6">
             
-            {/* Tagline with Orange Horizontal Rule (matching Helpful-Kashata) */}
+            {/* Tagline */}
             <div className="inline-flex items-center gap-3">
               <span className="w-12 h-[3px] bg-[#e16922] inline-block rounded-full shrink-0" />
               <span className="text-[#e16922] font-display font-extrabold uppercase tracking-widest text-xs sm:text-sm">
@@ -174,7 +164,7 @@ export default function HeroRollingBanner() {
               {slide.subtext}
             </p>
 
-            {/* Bullet Highlights with Cyan Checkmarks */}
+            {/* Bullet Highlights */}
             <div className="flex flex-wrap gap-x-6 gap-y-2 pt-1">
               {slide.features.map((feat, i) => (
                 <div key={i} className="flex items-center gap-2 text-xs sm:text-sm font-bold text-slate-800">
@@ -186,7 +176,7 @@ export default function HeroRollingBanner() {
               ))}
             </div>
 
-            {/* Dual CTA Buttons (Orange Primary + Cyan Accent Secondary) */}
+            {/* Dual CTA Buttons */}
             <div className="pt-3 flex flex-wrap items-center gap-4">
               <Link
                 href={slide.ctaLink}
@@ -207,29 +197,20 @@ export default function HeroRollingBanner() {
 
           </div>
 
-          {/* Right Floating Stat Badge & Preview Graphic */}
+          {/* Right Floating Info Card */}
           <div className="lg:col-span-4 hidden lg:flex flex-col items-end justify-center">
             
             <div className="p-6 rounded-3xl bg-white/95 backdrop-blur-md border-2 border-[#28c2ff]/30 shadow-2xl space-y-4 max-w-xs animate-float">
               <div className="flex items-center justify-between pb-3 border-b border-slate-100">
                 <span className="text-[10px] font-black uppercase tracking-widest text-[#e16922]">
-                  Pillar 0{slide.id} of 0{slides.length}
+                  {slide.tagline}
                 </span>
                 <div className="w-2.5 h-2.5 rounded-full bg-[#28c2ff] animate-ping" />
               </div>
 
-              <div>
-                <div className="text-4xl font-display font-black text-slate-950">
-                  {slide.statsBadge.value}
-                </div>
-                <div className="text-xs font-bold text-slate-600 uppercase tracking-wider mt-0.5">
-                  {slide.statsBadge.label}
-                </div>
-              </div>
-
               <div className="p-3 rounded-2xl bg-slate-50 border border-slate-200/80 text-[11px] text-slate-600">
-                <span className="font-bold text-slate-900 block mb-0.5">Ahmedabad Hub &bull; Global Scale</span>
-                Empowering 75+ organizations since 2018.
+                <span className="font-bold text-slate-900 block mb-0.5">Ahmedabad &bull; Since 2018</span>
+                Empowering 75+ organisations with consulting, training and Gita wisdom programs
               </div>
             </div>
 
@@ -237,7 +218,7 @@ export default function HeroRollingBanner() {
 
         </div>
 
-        {/* Bottom Rolling Controls: Progress Lines & Arrows (Inspired by Helpful-Kashata) */}
+        {/* Bottom Rolling Controls */}
         <div className="mt-12 pt-6 border-t border-slate-300/60 flex items-center justify-between gap-4">
           
           {/* Slide Progress Lines */}
