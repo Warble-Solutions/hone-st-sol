@@ -90,7 +90,7 @@ const diagnosticChallenges: DiagnosticChallenge[] = [
   }
 ];
 
-// The 5 Core Pillars directly from the original HoneST Solutions services
+// The 5 Core Pillars directly from the original Hone ST Solutions services
 const coreConsultingServices = [
   {
     id: "strategic-planning",
@@ -164,7 +164,7 @@ const coreConsultingServices = [
   }
 ];
 
-// The 6 Core Benefits from the original HoneST Solutions site
+// The 6 Core Benefits from the original Hone ST Solutions site
 const sixKeyBenefits = [
   {
     icon: BarChart3,
@@ -198,7 +198,7 @@ const sixKeyBenefits = [
   }
 ];
 
-// The 4-Step Methodology from HoneST codebase
+// The 4-Step Methodology from Hone ST codebase
 const consultingSteps = [
   {
     step: "01",
@@ -226,7 +226,7 @@ const consultingSteps = [
   }
 ];
 
-// The 9 exact verified industries from the original HoneST site
+// The 9 exact verified industries from the original Hone ST site
 const originalIndustries = [
   { name: "Manufacturing", icon: Factory, note: "Shopfloor SOPs, productivity & capacity optimization" },
   { name: "Retail", icon: ShoppingBag, note: "Store footprints, retail inventory & sales discipline" },
@@ -242,7 +242,7 @@ const originalIndustries = [
 const comparisonPoints = [
   {
     dimension: "Advisory Faculty",
-    honest: "Boardroom veterans with 50+ years collective ground-level execution experience",
+    honest: "Boardroom veterans with 100+ years collective ground-level execution experience",
     traditional: "Junior analysts presenting theoretical academic frameworks"
   },
   {
@@ -285,8 +285,8 @@ const consultingFaqs = [
     a: "Our initial diagnostic operational audit takes 2 to 3 weeks. Full organizational alignment, SOP deployment, and frontline coaching typically run across 3 to 6 months with bi-weekly review checkpoints, culminating in an autonomous capability handover to your leadership team."
   },
   {
-    q: "How is HoneST Solutions different from large corporate consulting firms?",
-    a: "Large corporate firms typically assign junior analysts who deliver theoretical presentations that gather dust. Our senior faculty brings over 50 years of collective high-level leadership experience to work directly on the ground alongside your promoters and department heads in Ahmedabad and across India."
+    q: "How is Hone ST Solutions different from large corporate consulting firms?",
+    a: "Large corporate firms typically assign junior analysts who deliver theoretical presentations that gather dust. Guided by our belief that 'Together We Can Make a Difference', our senior faculty brings over 100 years of collective high-level leadership experience to work directly on the ground alongside your promoters and department heads in Ahmedabad and across India."
   },
   {
     q: "How is confidentiality and business data protected?",
@@ -336,7 +336,7 @@ export default function BusinessConsultingPage() {
 
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#0284c7]/15 border border-[#0284c7]/40 text-[#28c2ff] text-xs font-bold uppercase tracking-wider backdrop-blur-md">
               <Building2 className="w-3.5 h-3.5 text-[#28c2ff]" />
-              <span>Boardroom Advisory &amp; Frontline Execution</span>
+              <span>Boardroom Advisory &amp; Frontline Execution &bull; Together We Can Make a Difference</span>
             </div>
           </div>
 
@@ -352,7 +352,7 @@ export default function BusinessConsultingPage() {
               </h1>
 
               <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl">
-                Helping businesses doing INR 50Cr. to INR 500Cr. scale up by introducing a professional approach and putting the right systems and processes in place—ensuring growth <span className="text-white font-bold">&ldquo;BECAUSE&rdquo;</span> and not <span className="text-white font-bold">&ldquo;INSPITE&rdquo;</span>
+                High level of complexity, change, and competition in the current business scenarios means organizations need to adapt and improve constantly. Businesses doing sales turnover of INR 50Cr. to INR 500Cr. are the ones looking to scale up by introducing a professional approach and putting the right systems and processes in place—ensuring growth <span className="text-white font-bold">&ldquo;BECAUSE&rdquo;</span> and not <span className="text-white font-bold">&ldquo;INSPITE&rdquo;</span>.
               </p>
 
               {/* Quote Chip */}
@@ -361,7 +361,7 @@ export default function BusinessConsultingPage() {
                   &ldquo;Review processes (not people) to ensure movement in the right direction.&rdquo;
                 </p>
                 <p className="text-[11px] font-bold uppercase tracking-wider text-[#28c2ff]">
-                  The HoneST Solutions Consulting Principle
+                  The Hone ST Solutions Consulting Principle &bull; Together We Can Make a Difference
                 </p>
               </div>
 
@@ -398,7 +398,7 @@ export default function BusinessConsultingPage() {
                   <span className="text-xs text-slate-400">Organizations Transformed</span>
                 </div>
                 <div>
-                  <span className="font-bold text-white text-2xl block font-display">50+ Yrs</span>
+                  <span className="font-bold text-white text-2xl block font-display">100+ Yrs</span>
                   <span className="text-xs text-slate-400">Collective Leadership</span>
                 </div>
                 <div>
@@ -548,7 +548,7 @@ export default function BusinessConsultingPage() {
                   <div className="flex items-center gap-2 text-[#0284c7]">
                     <CheckCircle2 className="w-4 h-4 shrink-0" />
                     <span className="text-xs font-bold uppercase tracking-wider">
-                      The HoneST Solutions Intervention
+                      The Hone ST Solutions Intervention
                     </span>
                   </div>
                   <p className="text-sm text-slate-800 leading-relaxed font-normal">
@@ -682,7 +682,7 @@ export default function BusinessConsultingPage() {
           <div className="bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 rounded-3xl p-7 sm:p-8 text-white border border-white/10 flex flex-col justify-between space-y-6 shadow-xl">
             <div className="space-y-4">
               <span className="text-xs font-mono font-bold text-[#28c2ff] uppercase tracking-wider block">
-                The HoneST Edge
+                The Hone ST Edge &bull; Together We Can Make a Difference
               </span>
               <h3 className="text-2xl font-display font-bold leading-snug">
                 Harmonizing Opportunities to Enhance Productivity
@@ -693,7 +693,7 @@ export default function BusinessConsultingPage() {
               <div className="pt-2 border-t border-white/10 space-y-2 text-xs text-slate-300">
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-cyan-400" />
-                  <span>50+ Years Combined Leadership</span>
+                  <span>100+ Years Combined Leadership</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="w-4 h-4 text-cyan-400" />
@@ -846,7 +846,7 @@ export default function BusinessConsultingPage() {
         </div>
       </section>
 
-      {/* 7. The HoneST Difference vs Traditional Consulting */}
+      {/* 7. The Hone ST Difference vs Traditional Consulting */}
       <section className="py-20 bg-slate-50 border-y border-slate-200/80">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           
@@ -855,7 +855,7 @@ export default function BusinessConsultingPage() {
               Pragmatic Value
             </span>
             <h2 className="text-3xl sm:text-4xl font-display font-black text-slate-950 tracking-tight">
-              The HoneST Solutions Difference
+              The Hone ST Solutions Difference
             </h2>
             <p className="text-base text-slate-600 font-normal">
               Why Indian promoters choose our execution-first advisory over conventional consulting firms
@@ -865,7 +865,7 @@ export default function BusinessConsultingPage() {
           <div className="bg-white rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-3 bg-slate-900 text-white p-5 sm:p-6 text-xs font-bold uppercase tracking-wider">
               <div>Evaluation Criteria</div>
-              <div className="text-[#28c2ff] hidden md:block">HoneST Solutions</div>
+              <div className="text-[#28c2ff] hidden md:block">Hone ST Solutions</div>
               <div className="text-slate-400 hidden md:block">Generic Consulting / Big-4</div>
             </div>
 
@@ -940,7 +940,7 @@ export default function BusinessConsultingPage() {
                 href="/about"
                 className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/15 text-white font-semibold text-xs uppercase tracking-wider border border-white/20 transition-all text-center"
               >
-                <span>Our 50+ Year Acumen</span>
+                <span>Our 100+ Year Acumen</span>
               </Link>
             </div>
 

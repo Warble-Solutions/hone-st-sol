@@ -23,7 +23,7 @@ export default function SignatureProgram() {
               
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#fef4ee] text-[#e16922] text-xs font-display font-extrabold uppercase tracking-widest border border-[#e16922]/30">
                 <Sparkles className="w-3.5 h-3.5 text-[#e16922]" />
-                HoneST Signature Landmark Program
+                Hone ST Signature Landmark Program
               </div>
 
               <h2 className="text-4xl sm:text-5xl font-display font-black text-slate-950 tracking-tight leading-[1.1]">

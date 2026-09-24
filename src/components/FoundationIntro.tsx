@@ -9,32 +9,32 @@ export default function FoundationIntro() {
     {
       value: "75+",
       label: "Organizations Served",
-      desc: "Transforming corporate productivity and executive decision-making across India",
+      desc: "Adding value to organizations across industries with boardroom strategies executed on the ground",
       pill: "Track Record",
       color: "text-[#e16922]",
       bg: "bg-[#fef4ee] border-[#e16922]/30"
     },
     {
-      value: "50+ Yrs",
-      label: "Collective Experience",
-      desc: "Deep boardroom execution, hands-on operational rigor and proven systems",
-      pill: "Faculty Authority",
+      value: "25,000+",
+      label: "Individuals Impacted",
+      desc: "Training, mentoring and upskilling individuals to build highly productive teams",
+      pill: "People Impact",
       color: "text-[#0284c7]",
       bg: "bg-[#eefaff] border-[#28c2ff]/30"
     },
     {
-      value: "2018",
-      label: "Founded in Ahmedabad",
-      desc: "One-stop catalyst for organizations and individuals",
-      pill: "Est. 2018",
+      value: "100+ Yrs",
+      label: "Collective Experience",
+      desc: "Experience, expertise, empathy and exuberance resulting in great places to work",
+      pill: "Faculty Authority",
       color: "text-slate-900",
       bg: "bg-slate-100 border-slate-200"
     },
     {
-      value: "Ahmedabad",
-      label: "Training Headquarters",
-      desc: "Dedicated state-of-the-art training centre and interactive workshop suites",
-      pill: "Physical Center",
+      value: "2018",
+      label: "Founded in Ahmedabad",
+      desc: "State-of-the-Art Training Centre providing a professional learning environment",
+      pill: "Est. 2018",
       color: "text-[#e16922]",
       bg: "bg-[#fef4ee] border-[#e16922]/30"
     }
@@ -57,7 +57,7 @@ export default function FoundationIntro() {
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#fef4ee] text-[#e16922] text-xs font-bold uppercase tracking-wider border border-[#e16922]/30 shadow-xs">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>The HoneST Foundation</span>
+            <span>The Hone ST Foundation &bull; Together We Can Make a Difference</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-black text-slate-950 tracking-tight leading-tight">
@@ -65,7 +65,7 @@ export default function FoundationIntro() {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-normal">
-            Germination of an idea in the year 2018 has resulted in adding value to 75+ organizations. This has been made possible by countless boardroom strategies executed on the ground, training and mentoring of the workforce spanning over 50 years of collective leadership experience, expertise, empathy and exuberance
+            Germination of an idea in the year 2018 has resulted in adding value to 75+ organizations and 25,000+ individuals. This has been made possible by countless boardroom strategies executed on the ground, training and mentoring of the workforce spanning over 100 years resulting in experience, expertise, empathy and exuberance which results in building highly productive teams and great places to work! Guided by our foundational belief that <strong className="text-slate-900 font-semibold">&ldquo;Together We Can Make a Difference&rdquo;</strong>.
           </p>
         </div>
 
@@ -95,17 +95,17 @@ export default function FoundationIntro() {
           ))}
         </div>
 
-        {/* The HONEST Acronym Box */}
+        {/* The HONE ST Acronym Box */}
         <div className="p-8 sm:p-10 rounded-3xl bg-white border border-slate-200/90 shadow-sm">
           <div className="max-w-2xl mb-8">
             <span className="text-xs font-bold uppercase tracking-wider text-[#e16922] block mb-1">
-              Our Core Philosophy
+              Our Core Philosophy &bull; Together We Can Make a Difference
             </span>
             <h3 className="text-2xl sm:text-3xl font-display font-black text-slate-900 tracking-tight">
-              The HoneST Philosophy in Action
+              The Hone ST Philosophy in Action
             </h3>
             <p className="text-sm text-slate-600 mt-2">
-              Our Business Verticals provide a One Stop Solution to organizations and individuals by Harmonizing Opportunities to Enhance productivity by Nurturing Synergies to Transform organizations and individuals
+              Our Business Verticals provide a One Stop Solution to organizations and individuals by Harmonizing Opportunities to Enhance productivity by Nurturing Synergies to Transform organizations and individuals.
             </p>
           </div>
 

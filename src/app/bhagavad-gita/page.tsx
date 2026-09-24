@@ -109,7 +109,7 @@ const discourseVideos = [
   {
     id: "B_FBjPLQWgo",
     title: "Chapter 12 Sung by Children: The Power of Pure Sanskrit Chanting",
-    speaker: "HoneST Children Academy",
+    speaker: "Hone ST Children Academy",
     desc: "A joyful demonstration of authentic Sanskrit diction (uccharan) and rhythmic cadence by young students at our Ahmedabad training facility",
     duration: "Student Recital",
     tag: "Children Chanting"
@@ -204,7 +204,7 @@ export default function BhagavadGitaPage() {
               </h1>
 
               <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-3xl">
-                The Bhagavad Gita is not a scripture of renunciation. It is a practical manual on decisive leadership, executive composure, and ethical action in high-stakes corporate environments
+                Bhagavad Gita is more than 5000 years old dialogue between &lsquo;seeker&rsquo; and &lsquo;guru&rsquo; and is a manual for leading a holistic life. Unlike spiritual books which recommend renunciation, Shrimad Bhagavad Gita helps understand how one can enrich life by excelling in the field of one&rsquo;s aptitude. Our signature program &mdash; &lsquo;Discover the Arjuna in You&rsquo; has benefitted organizations and individuals.
               </p>
 
               {/* Quote Banner (Frosted Glass) */}
@@ -213,7 +213,7 @@ export default function BhagavadGitaPage() {
                   &ldquo;The preaching of Shrimad Bhagavad Gita is like an Ocean filled with priceless jewels. The more one dives deep into it, the more jewels one is bound to discover.&rdquo;
                 </p>
                 <p className="text-[11px] font-bold uppercase tracking-wider text-[#e16922]">
-                  The HoneST Solutions Philosophy
+                  The Hone ST Solutions Philosophy &bull; Together We Can Make a Difference
                 </p>
               </div>
 
@@ -221,7 +221,7 @@ export default function BhagavadGitaPage() {
               <div className="flex flex-wrap gap-2 pt-1">
                 {[
                   'Discover the Arjuna in You',
-                  '50+ Years Experience',
+                  '100+ Years Faculty Experience',
                   '100% Free Weekly Chanting',
                   '50% Book Royalties to Girls'
                 ].map((chip, cIdx) => (
@@ -287,7 +287,7 @@ export default function BhagavadGitaPage() {
                 <div className="space-y-2 text-xs text-slate-300">
                   <div className="flex items-center justify-between pb-2 border-b border-white/10">
                     <span className="font-semibold text-slate-400">Faculty Pedigree:</span>
-                    <span className="font-bold text-white">50+ Years Experience</span>
+                    <span className="font-bold text-white">100+ Years Experience</span>
                   </div>
                   <div className="flex items-center justify-between pb-2 border-b border-white/10">
                     <span className="font-semibold text-slate-400">Flagship Curriculum:</span>

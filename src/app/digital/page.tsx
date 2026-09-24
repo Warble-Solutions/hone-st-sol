@@ -290,7 +290,7 @@ export default function DigitalSolutionsPage() {
             </h1>
 
             <p className="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
-              Modern websites, custom mobile apps, smart automations, and search visibility — built to connect your business with customers online, build trust, and drive revenue
+              In the current context, businesses without digital presence are non-existent. Our Digital Solutions are helping organizations across the globe to make their presence felt and be omnipresent — from Website Development and maintenance, App Development, Social Media Management, SEO, Google Ads to content digitalization.
             </p>
 
             {/* Authentic Quote Chip from Original Website */}
@@ -299,7 +299,7 @@ export default function DigitalSolutionsPage() {
                 &ldquo;Rebuild your personal or corporate image on the web. We connect businesses with customers online and promote the positive.&rdquo;
               </p>
               <p className="text-[11px] font-bold uppercase tracking-wider text-[#28c2ff]">
-                The HoneST Solutions Digital Promise
+                The Hone ST Solutions Digital Promise &bull; Together We Can Make a Difference
               </p>
             </div>
 
@@ -496,7 +496,7 @@ export default function DigitalSolutionsPage() {
             <div className="max-w-2xl">
               <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#eefaff] border border-[#28c2ff]/30 text-[#0284c7] text-xs font-bold uppercase tracking-wider mb-3">
                 <Sparkles className="w-3.5 h-3.5 text-[#0284c7]" />
-                <span>The 6 Pillars of HoneST Digital Engineering</span>
+                <span>The 6 Pillars of Hone ST Digital Engineering</span>
               </div>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-black text-slate-950 tracking-tight leading-tight">
                 Everything Your Business Needs to Succeed Online
@@ -656,7 +656,7 @@ export default function DigitalSolutionsPage() {
                     <span className="w-2.5 h-2.5 rounded-full bg-amber-400" />
                     <span className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
                     <span className="text-[11px] font-medium text-slate-500 ml-2">
-                      HoneST Digital Practice &bull; Ahmedabad
+                      Hone ST Digital Practice &bull; Ahmedabad
                     </span>
                   </div>
                   <span className="text-[10px] font-bold text-[#0284c7] bg-[#eefaff] px-2 py-0.5 rounded">
@@ -690,9 +690,9 @@ export default function DigitalSolutionsPage() {
                   <div className="flex items-center justify-between text-[11px] text-slate-400 border-b border-slate-800 pb-1.5 mb-1.5">
                     <span className="flex items-center gap-1.5 text-emerald-400 font-semibold">
                       <ShieldCheck className="w-3.5 h-3.5" />
-                      THE HONEST PROMISE
+                      THE HONE ST PROMISE
                     </span>
-                    <span className="text-slate-400">50+ Years Experience</span>
+                    <span className="text-slate-400">100+ Years Experience</span>
                   </div>
                   <div className="space-y-2 text-slate-300">
                     <p className="flex items-center gap-2">
@@ -1000,7 +1000,7 @@ export default function DigitalSolutionsPage() {
                 Ready to Grow Your Digital Presence?
               </h3>
               <p className="text-sm text-slate-600 font-normal">
-                With 50+ years of collective experience, our Ahmedabad team is ready to build your website, enhance your brand, and support your growth.
+                With 100+ years of collective experience, our Ahmedabad team is ready to build your website, enhance your brand, and support your growth.
               </p>
             </div>
 

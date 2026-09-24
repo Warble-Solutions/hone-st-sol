@@ -52,7 +52,7 @@ const slides: Slide[] = [
     ctaLink: '/business-consulting',
     accentColor: '#0284c7',
     icon: Handshake,
-    highlights: ['50+ Years Collective Exp', '75+ Organizations Guided']
+    highlights: ['100+ Years Collective Exp', '75+ Organizations Guided']
   },
   {
     id: 'digital',

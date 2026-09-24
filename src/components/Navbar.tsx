@@ -53,7 +53,7 @@ export default function Navbar() {
           <Link href="/" className="relative h-14 sm:h-16 md:h-[70px] w-48 sm:w-60 md:w-72 shrink-0 transition-transform duration-200 hover:scale-[1.02]">
             <Image
               src="/logo/hone-ST-logo.webp"
-              alt="HoneST Solutions"
+              alt="Hone ST Solutions"
               fill
               sizes="(max-width: 768px) 240px, 320px"
               priority

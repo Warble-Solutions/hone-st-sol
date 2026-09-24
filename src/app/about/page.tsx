@@ -87,7 +87,7 @@ export default function AboutUsPage() {
   const milestones = [
     {
       year: "2018",
-      title: "The Germination of HoneST",
+      title: "The Germination of Hone ST",
       desc: "Founded in Ahmedabad with a core conviction: combining high-level corporate governance and management acumen with timeless life principles"
     },
     {
@@ -162,7 +162,7 @@ export default function AboutUsPage() {
             </h1>
 
             <p className="text-base sm:text-lg text-slate-200 leading-relaxed font-normal">
-              Since 2018, HoneST Solutions has operated as a one-stop catalyst for 75+ organizations and 25,000+ individuals, bringing over 50 years of collective leadership experience to build highly productive teams and great places to work
+              Germination of an idea in the year 2018 has resulted in adding value to 75+ organizations and 25,000+ individuals. This has been made possible by countless boardroom strategies executed on the ground, training and mentoring of the workforce spanning over 100 years resulting in experience, expertise, empathy and exuberance which results in building highly productive teams and great places to work! Guided by our motto: <strong className="text-white font-semibold">&ldquo;Together We Can Make a Difference&rdquo;</strong>.
             </p>
 
             {/* Authentic Quote Chip */}
@@ -171,7 +171,7 @@ export default function AboutUsPage() {
                 &ldquo;Countless boardroom strategies executed on the ground, training and mentoring of the workforce spanning decades — delivering experience, expertise, empathy, and exuberance.&rdquo;
               </p>
               <p className="text-[11px] font-bold uppercase tracking-wider text-[#28c2ff]">
-                The HoneST Solutions Founding Principle
+                The Hone ST Solutions Founding Principle &bull; Together We Can Make a Difference
               </p>
             </div>
           </div>
@@ -187,7 +187,7 @@ export default function AboutUsPage() {
               <p className="text-xs text-slate-300 font-semibold mt-1 uppercase tracking-wider">Individuals Impacted</p>
             </div>
             <div className="p-4 sm:p-5 rounded-2xl bg-white/[0.05] border border-white/10 backdrop-blur-sm">
-              <p className="text-3xl sm:text-4xl font-display font-black text-[#28c2ff]">50+ Yrs</p>
+              <p className="text-3xl sm:text-4xl font-display font-black text-[#28c2ff]">100+ Yrs</p>
               <p className="text-xs text-slate-300 font-semibold mt-1 uppercase tracking-wider">Collective Experience</p>
             </div>
             <div className="p-4 sm:p-5 rounded-2xl bg-white/[0.05] border border-white/10 backdrop-blur-sm">
@@ -223,17 +223,17 @@ export default function AboutUsPage() {
         </div>
       </section>
 
-      {/* 2. The HoneST Acronym Identity */}
+      {/* 2. The Hone ST Acronym Identity */}
       <section id="philosophy" className="py-20 sm:py-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 scroll-mt-20">
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <span className="text-xs font-bold uppercase tracking-widest text-[#0284c7] bg-[#eefaff] px-4 py-1.5 rounded-full border border-[#28c2ff]/30">
-            The Meaning Behind Our Name
+            The Meaning Behind Our Name &bull; Together We Can Make a Difference
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-black text-slate-950 tracking-tight">
-            The Blueprint of <span className="text-[#e16922]">HoneST Solutions</span>
+            The Blueprint of <span className="text-[#e16922]">Hone ST Solutions</span>
           </h2>
           <p className="text-base text-slate-600 max-w-2xl mx-auto font-normal">
-            More than just a name: HoneST is our guiding operational philosophy across every client consultation, corporate workshop, and digital solution
+            More than just a name: Hone ST is our guiding operational philosophy across every client consultation, corporate workshop, and digital solution. Together We Can Make a Difference.
           </p>
         </div>
 
@@ -272,7 +272,7 @@ export default function AboutUsPage() {
               Executive Leadership
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-black text-slate-950 tracking-tight">
-              Meet the Visionaries Behind HoneST
+              Meet the Visionaries Behind Hone ST
             </h2>
             <p className="text-base text-slate-600 font-normal">
               Decades of real-world corporate governance, experiential workshop mastery, and authentic commitment to social transformation
@@ -398,13 +398,13 @@ export default function AboutUsPage() {
                 <div className="p-8 sm:p-10 space-y-6">
                   <div className="space-y-3.5 text-xs sm:text-sm text-slate-600 leading-relaxed font-normal">
                     <p>
-                      A foundational pillar of HoneST Solutions, Sandhya Kundu oversees corporate operations, training logistics, and the organization’s dedicated social welfare programs.
+                      A foundational pillar of Hone ST Solutions, Sandhya Kundu oversees corporate operations, training logistics, and the organization’s dedicated social welfare programs.
                     </p>
                     <p>
-                      Her empathetic yet structured approach has built HoneST’s repute as a warm, responsive, and deeply trusted partner for corporate clients seeking holistic team-building workshops and leadership alignment.
+                      Her empathetic yet structured approach has built Hone ST’s repute as a warm, responsive, and deeply trusted partner for corporate clients seeking holistic team-building workshops and leadership alignment.
                     </p>
                     <p>
-                      Sandhya spearheads HoneST’s philanthropic mission, ensuring that <strong>50% of all proceeds</strong> from book publications are systematically deployed towards schooling, meals, and educational resources for underprivileged girls.
+                      Sandhya spearheads Hone ST’s philanthropic mission, ensuring that <strong>50% of all proceeds</strong> from book publications are systematically deployed towards schooling, meals, and educational resources for underprivileged girls.
                     </p>
                   </div>
 
@@ -638,7 +638,7 @@ export default function AboutUsPage() {
           <div className="p-8 sm:p-12 rounded-3xl bg-gradient-to-r from-[#eefaff] via-white to-orange-50 border-2 border-[#28c2ff]/30 shadow-lg shadow-slate-900/5 flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="space-y-2 max-w-xl">
               <span className="text-xs font-bold uppercase tracking-wider text-[#0284c7]">
-                Connect with HoneST
+                Connect with Hone ST &bull; Together We Can Make a Difference
               </span>
               <h3 className="text-2xl sm:text-3xl font-display font-black text-slate-950">
                 Ready to Accelerate Your Organization?

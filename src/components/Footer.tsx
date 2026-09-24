@@ -50,7 +50,7 @@ export default function Footer() {
                   href="/about"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-white hover:bg-slate-50 text-slate-800 font-display font-bold text-sm border border-slate-300 transition-colors"
                 >
-                  <span>Our 50+ Yr Experience</span>
+                  <span>Our 100+ Yr Experience</span>
                 </Link>
               </div>
             </div>
@@ -94,13 +94,13 @@ export default function Footer() {
         {/* Brand & Links Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-16 border-b border-slate-200">
           
-          {/* HoneST Mission & Logo */}
+          {/* Hone ST Mission & Logo */}
           <div className="lg:col-span-4 space-y-4">
             <Link href="/" className="inline-block transition-transform duration-200 hover:scale-[1.02]">
               <div className="relative h-16 sm:h-20 w-60 sm:w-80">
                 <Image
                   src="/logo/hone-ST-logo.webp"
-                  alt="HoneST Solutions Logo"
+                  alt="Hone ST Solutions Logo"
                   fill
                   sizes="(max-width: 768px) 240px, 320px"
                   className="object-contain object-left"
@@ -108,12 +108,16 @@ export default function Footer() {
               </div>
             </Link>
             
+            <p className="text-xs font-semibold text-[#e16922] italic tracking-wide">
+              &ldquo;Together We Can Make a Difference&rdquo;
+            </p>
+
             <p className="text-sm text-slate-600 leading-relaxed">
-              &ldquo;What mind can conceive man can achieve&rdquo;, since 2018, providing a comprehensive catalyst for organisations and individuals
+              Adding value to 75+ organizations and 25,000+ individuals since 2018. Over 100 years of collective experience, expertise, empathy and exuberance — building highly productive teams and great places to work!
             </p>
 
             <div className="p-4 rounded-2xl bg-[#fef4ee]/60 border border-[#e16922]/20 text-xs space-y-1.5">
-              <p className="font-display font-black text-[#e16922] uppercase tracking-wide">The HoneST Blueprint</p>
+              <p className="font-display font-black text-[#e16922] uppercase tracking-wide">The Hone ST Blueprint</p>
               <p className="text-slate-700 leading-relaxed">
                 <strong className="text-slate-950">H</strong>armonizing <strong className="text-slate-950">O</strong>pportunities &bull; <strong className="text-slate-950">E</strong>nhancing productivity &bull; <strong className="text-slate-950">N</strong>urturing <strong className="text-slate-950">S</strong>ynergies &bull; <strong className="text-slate-950">T</strong>ransforming lives
               </p>
@@ -249,7 +253,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <p>
-            &copy; {new Date().getFullYear()} HoneST Solutions (honestsol.com). All rights reserved.
+            &copy; {new Date().getFullYear()} Hone ST Solutions (honestsol.com). All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link href="/about" className="hover:text-[#e16922] transition-colors">

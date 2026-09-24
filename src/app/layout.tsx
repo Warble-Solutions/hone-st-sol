@@ -19,10 +19,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'HoneST Solutions | Digital Transformation, Business Consulting & Executive Programs',
-  description: 'Innovative digital solutions, AI workflows, premier business consulting in Ahmedabad, and signature Bhagavad Gita leadership programs. Founded in 2018.',
+  title: 'Hone ST Solutions | Digital Transformation, Business Consulting & Executive Programs',
+  description: 'Innovative digital solutions, AI workflows, premier business consulting in Ahmedabad, and signature Bhagavad Gita leadership programs. Together We Can Make a Difference. Founded in 2018.',
   keywords: [
-    'HoneST Solutions',
+    'Hone ST Solutions',
     'Best Business Consultant in Ahmedabad',
     'AI Agents and Automation',
     'Digital Transformation Agency',
@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     icon: '/logo/hone-ST-logo.webp',
   },
   openGraph: {
-    title: 'HoneST Solutions - Innovative Solutions for a Digital World',
-    description: 'Empowering organizations with transformative digital solutions, business consulting, and ancient wisdom programs.',
+    title: 'Hone ST Solutions - Together We Can Make a Difference',
+    description: 'Empowering organizations with transformative digital solutions, business consulting, and ancient wisdom programs. Together We Can Make a Difference.',
     url: 'https://honestsol.com',
-    siteName: 'HoneST Solutions',
+    siteName: 'Hone ST Solutions',
     locale: 'en_US',
     type: 'website',
   },

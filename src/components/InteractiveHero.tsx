@@ -87,7 +87,7 @@ export default function InteractiveHero() {
             {/* Tag Badge */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#fef4ee] border border-[#e16922]/30 text-[#e16922] text-xs font-bold uppercase tracking-wider shadow-xs">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>HoneST Solutions &bull; Ahmedabad, India</span>
+              <span>Hone ST Solutions &bull; Together We Can Make a Difference</span>
             </div>
 
             {/* Headline */}
@@ -99,9 +99,8 @@ export default function InteractiveHero() {
               </span>
             </h1>
 
-            {/* Subtitle / Intro Narrative */}
             <p className="text-base sm:text-lg text-slate-700 leading-relaxed max-w-xl font-normal">
-              A comprehensive advisory catalyst combining 100+ years of collective boardroom execution with timeless Bhagavad Gita clarity and state-of-the-art digital engineering
+              Our Business Verticals help in providing a One Stop Solution to organizations and individuals by <strong className="text-slate-900 font-semibold">H</strong>armonizing <strong className="text-slate-900 font-semibold">O</strong>pportunities to <strong className="text-slate-900 font-semibold">N</strong>urture and <strong className="text-slate-900 font-semibold">E</strong>nhance productivity by creating <strong className="text-slate-900 font-semibold">S</strong>ynergies to <strong className="text-slate-900 font-semibold">T</strong>ransform organizations and individuals.
             </p>
 
             {/* Dual CTA Buttons */}
@@ -130,13 +129,22 @@ export default function InteractiveHero() {
                   75+
                 </div>
                 <div className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mt-0.5">
-                  Enterprises
+                  Organizations
                 </div>
               </div>
 
               <div>
                 <div className="text-2xl sm:text-3xl font-display font-black text-[#e16922]">
-                  50+ Yrs
+                  25,000+
+                </div>
+                <div className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mt-0.5">
+                  Individuals
+                </div>
+              </div>
+
+              <div>
+                <div className="text-2xl sm:text-3xl font-display font-black text-[#0284c7]">
+                  100+ Yrs
                 </div>
                 <div className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mt-0.5">
                   Experience
@@ -144,20 +152,11 @@ export default function InteractiveHero() {
               </div>
 
               <div>
-                <div className="text-2xl sm:text-3xl font-display font-black text-[#0284c7]">
-                  2018
-                </div>
-                <div className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mt-0.5">
-                  Inception
-                </div>
-              </div>
-
-              <div>
                 <div className="text-2xl sm:text-3xl font-display font-black text-slate-950">
-                  Ahmedabad
+                  Since 2018
                 </div>
                 <div className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mt-0.5">
-                  Training Hub
+                  Ahmedabad, India
                 </div>
               </div>
             </div>

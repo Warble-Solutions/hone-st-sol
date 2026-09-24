@@ -43,10 +43,10 @@ export default function ClientTicker() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 text-center">
         <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-100/80 text-[#e16922] text-xs font-bold uppercase tracking-wider mb-4 border border-orange-200/60">
           <span className="w-2 h-2 rounded-full bg-[#e16922] animate-pulse" />
-          Our Valued Clientele & Partners
+          Hone ST Valued Clientele &bull; Together We Can Make a Difference
         </div>
         <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-          Trusted by 75+ Industry Leaders, Universities & Fast-Growth Enterprises
+          Trusted by 75+ Industry Leaders, Universities &amp; Fast-Growth Enterprises
         </h2>
         <p className="mt-2 text-sm sm:text-base text-slate-600 max-w-2xl mx-auto">
           Delivering transformative digital engineering, strategic management consulting, and workforce capability programs.
@@ -54,26 +54,26 @@ export default function ClientTicker() {
       </div>
 
       {/* Marquee Wrapper with Smooth Gradient Fades */}
-      <div className="relative w-full overflow-hidden flex flex-col gap-6">
+      <div className="relative w-full overflow-hidden flex flex-col gap-8">
         {/* Left and Right Fade Gradients */}
-        <div className="absolute left-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-r from-slate-50 via-slate-50/80 to-transparent z-10 pointer-events-none" />
-        <div className="absolute right-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-l from-slate-50 via-slate-50/80 to-transparent z-10 pointer-events-none" />
+        <div className="absolute left-0 top-0 bottom-0 w-20 sm:w-40 bg-gradient-to-r from-slate-50 via-slate-50/80 to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-20 sm:w-40 bg-gradient-to-l from-slate-50 via-slate-50/80 to-transparent z-10 pointer-events-none" />
 
         {/* Row 1: Leftward Marquee */}
-        <div className="animate-marquee flex items-center gap-6 py-2">
+        <div className="animate-marquee flex items-center gap-7 py-2">
           {[...clientLogosRow1, ...clientLogosRow1].map((client, idx) => (
             <div
               key={`r1-${client.id}-${idx}`}
-              className="group h-24 sm:h-28 min-w-[200px] sm:min-w-[240px] px-6 sm:px-8 py-3 rounded-2xl bg-white border border-slate-200/90 shadow-[0_2px_10px_rgba(0,0,0,0.03)] hover:shadow-lg hover:border-orange-300/80 flex items-center justify-center shrink-0 transition-all duration-300 cursor-default"
+              className="group h-28 sm:h-36 min-w-[260px] sm:min-w-[320px] px-8 sm:px-10 py-4 rounded-3xl bg-white border border-slate-200/90 shadow-[0_4px_16px_rgba(0,0,0,0.04)] hover:shadow-xl hover:border-orange-400/80 flex items-center justify-center shrink-0 transition-all duration-300 cursor-default"
               title={client.name}
             >
               <div className="relative w-full h-full flex items-center justify-center">
                 <Image
                   src={client.logo}
                   alt={client.name}
-                  width={240}
-                  height={80}
-                  className="h-14 sm:h-16 w-auto max-w-[190px] sm:max-w-[220px] object-contain transition-transform duration-300 group-hover:scale-105"
+                  width={320}
+                  height={100}
+                  className="h-16 sm:h-22 w-auto max-w-[240px] sm:max-w-[280px] object-contain transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
               </div>
@@ -82,20 +82,20 @@ export default function ClientTicker() {
         </div>
 
         {/* Row 2: Rightward (Reverse) Marquee */}
-        <div className="animate-marquee-reverse flex items-center gap-6 py-2">
+        <div className="animate-marquee-reverse flex items-center gap-7 py-2">
           {[...clientLogosRow2, ...clientLogosRow2].map((client, idx) => (
             <div
               key={`r2-${client.id}-${idx}`}
-              className="group h-24 sm:h-28 min-w-[200px] sm:min-w-[240px] px-6 sm:px-8 py-3 rounded-2xl bg-white border border-slate-200/90 shadow-[0_2px_10px_rgba(0,0,0,0.03)] hover:shadow-lg hover:border-sky-300/80 flex items-center justify-center shrink-0 transition-all duration-300 cursor-default"
+              className="group h-28 sm:h-36 min-w-[260px] sm:min-w-[320px] px-8 sm:px-10 py-4 rounded-3xl bg-white border border-slate-200/90 shadow-[0_4px_16px_rgba(0,0,0,0.04)] hover:shadow-xl hover:border-sky-400/80 flex items-center justify-center shrink-0 transition-all duration-300 cursor-default"
               title={client.name}
             >
               <div className="relative w-full h-full flex items-center justify-center">
                 <Image
                   src={client.logo}
                   alt={client.name}
-                  width={240}
-                  height={80}
-                  className="h-14 sm:h-16 w-auto max-w-[190px] sm:max-w-[220px] object-contain transition-transform duration-300 group-hover:scale-105"
+                  width={320}
+                  height={100}
+                  className="h-16 sm:h-22 w-auto max-w-[240px] sm:max-w-[280px] object-contain transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
               </div>

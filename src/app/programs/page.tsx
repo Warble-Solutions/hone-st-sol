@@ -20,7 +20,7 @@ export default function ProgramsPage() {
   const programFaqs = [
     {
       q: "Is there any registration fee for the chanting sessions?",
-      a: "No. Both 'Gita Chanting Is Enchanting' (adults) and 'Gita Chanting Is Enchanting for Children' are 100% free of charge as part of HoneST Solutions' community wisdom initiative."
+      a: "No. Both 'Gita Chanting Is Enchanting' (adults) and 'Gita Chanting Is Enchanting for Children' are 100% free of charge as part of Hone ST Solutions' community wisdom initiative."
     },
     {
       q: "Where are the in-person sessions held?",
@@ -46,7 +46,7 @@ export default function ProgramsPage() {
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#fef4ee] text-[#e16922] text-xs font-bold uppercase tracking-widest border border-[#e16922]/30">
-            <Heart className="w-3.5 h-3.5 text-[#e16922] fill-[#e16922]" /> 100% Free Community Initiatives
+            <Heart className="w-3.5 h-3.5 text-[#e16922] fill-[#e16922]" /> 100% Free Community Initiatives &bull; Together We Can Make a Difference
           </div>
 
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-black text-slate-950 tracking-tight max-w-4xl mx-auto leading-[1.1]">
@@ -54,7 +54,7 @@ export default function ProgramsPage() {
           </h1>
 
           <p className="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto font-normal leading-relaxed">
-            Conducted at our state-of-the-art training centre in Makarba, Ahmedabad. Nurturing mental poise for adults and timeless ethical values for children.
+            Our programs, crafted by a team of highly renowned faculty with over 100+ years of collective experience, are designed to empower Employees, Entrepreneurs, Students, and Home Makers. Each program is meticulously developed based on thorough Training Need Identification (TNI). Individuals can learn The Bhagavad Gita Chanting in person, FREE of cost, at our State-of-the-Art Training Centre.
           </p>
 
           <div className="pt-4 flex flex-wrap justify-center gap-4 text-xs font-bold text-slate-700">

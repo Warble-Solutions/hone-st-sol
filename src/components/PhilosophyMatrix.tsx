@@ -69,7 +69,7 @@ export default function PhilosophyMatrix() {
         <div className="max-w-3xl mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#fef4ee] text-[#e16922] text-xs font-bold uppercase tracking-wider border border-[#e16922]/30 shadow-xs">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>The HoneST Foundation</span>
+            <span>The Hone ST Foundation &bull; Together We Can Make a Difference</span>
           </div>
 
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-black text-slate-950 tracking-tight leading-tight">
@@ -77,7 +77,7 @@ export default function PhilosophyMatrix() {
           </h2>
 
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed font-normal">
-            Germination of an idea in the year 2018 has resulted in adding value to 75+ organizations. This has been made possible by countless boardroom strategies executed on the ground, training and mentoring of the workforce spanning over 50 years of collective leadership experience, expertise, empathy and exuberance
+            Germination of an idea in the year 2018 has resulted in adding value to 75+ organizations and 25,000+ individuals. This has been made possible by countless boardroom strategies executed on the ground, training and mentoring of the workforce spanning over 100 years resulting in experience, expertise, empathy and exuberance which results in building highly productive teams and great places to work! Guided by our principle that <strong className="text-slate-900 font-semibold">&ldquo;Together We Can Make a Difference&rdquo;</strong>.
           </p>
         </div>
 

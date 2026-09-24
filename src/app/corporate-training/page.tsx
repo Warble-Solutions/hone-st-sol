@@ -19,24 +19,29 @@ import FAQAccordion from '@/components/FAQAccordion';
 export default function CorporateTrainingPage() {
   const trainingModules = [
     {
-      title: "Executive Composure & Poise Under Pressure",
-      desc: "Rooted in Chapter 18 and Sthitaprajna principles, training leaders to eliminate emotional paralysis in crisis situations",
-      audience: "Board of Directors, VPs & Senior General Managers"
+      title: "Discover the Arjuna in You – Bhagavad Gita for Corporates",
+      desc: "Our signature program designed to increase productivity of individuals leading to incremental organizational productivity, blending ancient wisdom with modern management",
+      audience: "Board of Directors, VPs, Senior General Managers & Emerging Leaders"
     },
     {
-      title: "Frontline Sales Mastery & Persuasion",
-      desc: "Transforming technical reps into consultative value communicators who command trust and close long-cycle deals",
-      audience: "B2B Sales Teams, Account Managers & Business Development"
+      title: "Sales & Marketing Certification Program",
+      desc: "A must programme for middle management level sales personnel and entrepreneurs (Start Up, SME & MSME) to master consultative selling and market positioning",
+      audience: "B2B Sales Teams, Account Managers & Entrepreneurs"
     },
     {
-      title: "Cross-Functional Collaboration & Conflict Resolution",
-      desc: "Dismantling toxic departmental silos through structured roleplay simulations and shared accountability frameworks",
-      audience: "Operations, Engineering, Marketing & Finance Heads"
+      title: "Leadership Communication & Business Communication",
+      desc: "Comprehensive programs covering Negotiation, Time Management, Effective Presentation Skills, Logical Reasoning, Resume Writing and Interview Skills",
+      audience: "Mid-Level Managers, Team Leads & Individual Contributors"
     },
     {
-      title: "High-Performance Work Culture & Ownership",
-      desc: "Instilling deep psychological accountability where employees take personal responsibility for team deliverables",
-      audience: "Mid-Level Managers, Team Leads & Emerging Leaders"
+      title: "Behavioural & Soft Skills Training",
+      desc: "Experiential behavioral simulations that connect with individuals at both the theory and practical level, delivered by faculty with 100+ years of collective corporate experience",
+      audience: "Cross-Functional Teams, Operations & HR Departments"
+    },
+    {
+      title: "Public Speaking – All Age Groups",
+      desc: "Confidence-building public speaking workshops for professionals, students and all age groups, designed to develop persuasive communication and presentation mastery",
+      audience: "All Age Groups – Professionals, Students & Individuals"
     }
   ];
 
@@ -73,7 +78,7 @@ export default function CorporateTrainingPage() {
       a: "For intensive leadership masterclasses, we recommend 15 to 25 participants to guarantee personalized feedback and active participation in roleplay simulations."
     },
     {
-      q: "What makes HoneST training different from conventional corporate trainers?",
+      q: "What makes Hone ST training different from conventional corporate trainers?",
       a: "We replace passive PowerPoint lecturing with experiential behavioral roleplays, psychological composure frameworks, and measurable post-training follow-through."
     }
   ];
@@ -91,7 +96,7 @@ export default function CorporateTrainingPage() {
             
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#fef4ee] text-[#e16922] text-xs font-bold uppercase tracking-widest border border-[#e16922]/30">
-                <GraduationCap className="w-3.5 h-3.5 text-[#e16922]" /> Corporate Learning &amp; TNI
+                <GraduationCap className="w-3.5 h-3.5 text-[#e16922]" /> Corporate Learning &amp; TNI &bull; Together We Can Make a Difference
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-black text-slate-950 tracking-tight leading-[1.1]">
@@ -99,7 +104,7 @@ export default function CorporateTrainingPage() {
               </h1>
 
               <p className="text-base sm:text-lg text-slate-600 leading-relaxed font-normal">
-                No boring slide decks. High-impact behavioral simulations, leadership composure labs, and structured Training Needs Identification (TNI) delivered by seasoned corporate veterans.
+                More than 75 organizations have benefitted from our programs with customized offerings based on Training Need Identification (TNI). Our highly professional faculties bring in a vast experience of <strong className="text-slate-900 font-semibold">100+ years</strong> from corporate environment which makes the trainings experiential and connects with individuals at both the theory and practical level. Corporate and individual trainings are also conducted at our <strong className="text-slate-900 font-semibold">State-of-the-Art Training Centre</strong>.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-2">
@@ -120,7 +125,7 @@ export default function CorporateTrainingPage() {
 
               <div className="pt-6 border-t border-slate-200/80 flex flex-wrap gap-8 text-xs text-slate-600">
                 <div>
-                  <span className="font-bold text-slate-900 text-lg block font-display">50+ Yrs</span>
+                  <span className="font-bold text-slate-900 text-lg block font-display">100+ Yrs</span>
                   <span>Collective Experience</span>
                 </div>
                 <div>

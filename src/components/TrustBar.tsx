@@ -12,7 +12,7 @@ export default function TrustBar() {
       pillBg: "bg-[#fef4ee] text-[#e16922] border-[#e16922]/30"
     },
     {
-      value: "50+ Yrs",
+      value: "100+ Yrs",
       label: "Collective Experience",
       detail: "Hands-on boardroom and operational pedigree",
       color: "text-[#0284c7]",
@@ -46,7 +46,7 @@ export default function TrustBar() {
           <div className="flex items-center gap-2.5">
             <span className="flex h-2.5 w-2.5 rounded-full bg-[#e16922] animate-ping" />
             <p className="text-xs font-display font-extrabold uppercase tracking-widest text-slate-500">
-              The HoneST Benchmark &bull; Grounded in Results Since 2018
+              The Hone ST Benchmark &bull; Grounded in Results Since 2018
             </p>
           </div>
           
